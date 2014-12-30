@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<% photos.forEach(function(photo){ %>
+<a href=<%= photo.get('url') %>><%= photo.get('name') %></a>
+<% }) %>
+</body>
+</html>
